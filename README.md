@@ -21,7 +21,7 @@ See example Ant script below.
 ## Download
 
 From the build/ directory:
-* [MergeLog4j2Plugins.jar](../blob/master/build/MergeLog4j2Plugins.jar?raw=true)
+* [MergeLog4j2Plugins.jar](https://github.com/Corionis/MergeLog4j2Plugins/raw/main/build/MergeLog4j2Plugins.jar?raw=true)
 
 ## Arguments:
 
