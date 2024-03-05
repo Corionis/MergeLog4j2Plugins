@@ -98,6 +98,8 @@ From the build/ directory:
     </target>
 
     <target name="All" depends="jar" description="Build all"/>
+</project>
+
 ```
 
 ## Related
