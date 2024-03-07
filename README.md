@@ -8,7 +8,7 @@ Useful when building a standalone Jar and supports custom Log4j plug-ins.
 Reads the generated Log4j2Plugins.dat file then scans the project lib directory Jar files and
 merges any additional Log4j2Plugins.dat files. Overwrites the generated file with the merged results.
 
-## Sequence:
+## Sequence
   * Compile project with annotations
   * Run MergeLog4j2Plugins to merge Log4j2Plugins.dat files
   * Save a copy of the resulting merged Log4j2Plugins.dat
@@ -23,12 +23,12 @@ See example Ant script below.
 From the build/ directory:
 * [MergeLog4j2Plugins.jar](https://github.com/Corionis/MergeLog4j2Plugins/raw/main/build/MergeLog4j2Plugins.jar?raw=true)
 
-## Arguments:
+## Arguments
 
   ``-d | --dat [path]`` : Path to annotation-generated Log4j2Plugins.dat file.<br/>
   ``-l | --lib [path]`` : Path to project lib directory.
 
-## Example:
+## Example
 
   ``java -jar artifacts/bin/MergeLog4j2Plugins.jar --dat "out/jar/META-INF/org/apache/logging/log4j/core/config/plugins/Log4j2Plugins.dat" --lib lib``
 
